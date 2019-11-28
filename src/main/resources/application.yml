@@ -6,7 +6,7 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://121.199.202.220:3306/flower
+        url: jdbc:mysql://121.199.202.220:3306/yuezhan
         username: user12
         password: User123456
 
