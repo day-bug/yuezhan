@@ -1,25 +1,43 @@
-#\u670D\u52A1\u5668\u7AEF\u53E3\u53F7
+#服务器端口号
 server:
-    port: 8888
+  port: 8088
 
+#数据源
 spring:
-    datasource:
-        type: com.alibaba.druid.pool.DruidDataSource
-        driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://121.199.202.220:3306/yuezhan
-        username: user12
-        password: User123456
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://121.199.202.220:3306/flower
+    username: user11
+    password: User123456
 
-    freemarker:
-        cache: false
-        charset: utf-8
-        content-type: textml
-        template-loader-path: classpath:/templates/
-        suffix: .ftl
+  #redis服务器
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+  #配置thymelelf模板参数
+  thymeleaf:
+    cache: false
+    #应用于模板的模板模式
+    mode: HTML5
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
 
 
+  #配置FreeMarker
+#  freemarker:
+#    #开发阶段建议false（开启缓存 false）
+#    cache: false
+#    charset: UTF-8
+#    content-type: text/html
+#    template-loader-path: classpath:/templates/
+#    suffix: .ftl
+#别名定义
 mybatis:
-    type-aliases-package: com.gaoshu.pojo
-
-#mapper-locations: classpath: mapper/*Mapper.xml
-#config-location: classpath: SqlMapConfig.xml
+  type-aliases-package: com.gaoshu.pojo
+  #
+  #mapper-locations:
+  #config-locations:
