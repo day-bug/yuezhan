@@ -1,30 +1,15 @@
-#\u670D\u52A1\u5668\u7AEF\u53E3\u53F7
 server:
     port: 8888
 
 spring:
-#\u6570\u636E\u6E90
     datasource:
-#\u6570\u636E\u6E90\u7C7B\u578B
         type: com.alibaba.druid.pool.DruidDataSource
-#\u6570\u636E\u5E93\u9A71\u52A8\u7C7B
         driver-class-name: com.mysql.jdbc.Driver
-#\u6570\u636E\u5E93\u8FDE\u63A5\u8DEF\u5F84
         url: jdbc:mysql://121.199.202.220:3306/flower
         username: user12
         password: User123456
 
-#redis\u652F\u6301\u4E94\u79CD\u6570\u636E\u7C7B\u578B:string(\u5B57\u7B26\u4E32) hash(\u54C8\u5E0C\u7801) list(\u5217\u8868) set(\u96C6\u5408) zset(\u6709\u5E8F\u96C6\u5408)
-#springboot\u6574\u5408redis\u7B2C\u4E8C\u6B65
-#redis:
-#redis\u670D\u52A1\u5668\u7684ip\u5730\u5740
-#host: 127.0.0.1
-#redis\u670D\u52A1\u5668\u7684\u7AEF\u53E3\u53F7
-#port: 6379
-
-#\u914D\u7F6EFreeMarker\u6A21\u677F
     freemarker:
-#\u6253\u5F00\u7F13\u5B58:true  \u5F00\u53D1\u9636\u6BB5\u5EFA\u8BAE\u5173\u95ED:false
         cache: false
         charset: utf-8
         content-type: textml
@@ -33,9 +18,7 @@ spring:
 
 
 mybatis:
-#\u522B\u540D\u5B9A\u4E49
     type-aliases-package: com.gaoshu.pojo
 
-#\u52A0\u8F7Dmybatis\u914D\u7F6E\u6587\u4EF6
 #mapper-locations: classpath: mapper/*Mapper.xml
 #config-location: classpath: SqlMapConfig.xml
