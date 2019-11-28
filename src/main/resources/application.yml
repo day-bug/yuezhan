@@ -21,7 +21,7 @@ spring:
 #host: 127.0.0.1
 #redis\u670D\u52A1\u5668\u7684\u7AEF\u53E3\u53F7
 #port: 6379
-
+#
 #\u914D\u7F6EFreeMarker\u6A21\u677F
     freemarker:
 #\u6253\u5F00\u7F13\u5B58:true  \u5F00\u53D1\u9636\u6BB5\u5EFA\u8BAE\u5173\u95ED:false
