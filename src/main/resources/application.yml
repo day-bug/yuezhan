@@ -27,7 +27,7 @@ spring:
 #\u6253\u5F00\u7F13\u5B58:true  \u5F00\u53D1\u9636\u6BB5\u5EFA\u8BAE\u5173\u95ED:false
         cache: false
         charset: utf-8
-        content-type: textml
+        content-type: text/html
         template-loader-path: classpath:/templates/
         suffix: .ftl
 
