@@ -6,8 +6,8 @@ server:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://121.199.202.220:3306/flower
-    username: user10
+    url: jdbc:mysql://121.199.202.220:3306/yuezhan
+    username: user9
     password: User123456
 
   #redis服务器
