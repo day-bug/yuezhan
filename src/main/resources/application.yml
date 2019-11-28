@@ -34,7 +34,7 @@ spring:
     servlet:
       content-type: text/html
 
-
+#
   #配置FreeMarker
 #  freemarker:
 #    #开发阶段建议false（开启缓存 false）
