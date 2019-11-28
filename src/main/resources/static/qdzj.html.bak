@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<link href="css/css_whir.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+<title>查铭</title>
+</head>
+<body>
+<!--头部开始-->
+<div id="head">
+  <div class="logo"><img src="images/logo.png" /></div>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html"  class="nav01"><span class="Texthide">首页</span></a></li>
+      <li><a href="qdlb.html"  class="nav02"><span class="Texthide">球队</span></a></li>
+      <li><a href="qdyz.html"  class="nav03"><span class="Texthide">约战</span></a></li>
+      <li><a href="qdcd.html"  class="nav04"><span class="Texthide">场地</span></a></li>
+      <li><a href="qdzj.html"  class="nav05"><span class="Texthide">战绩榜</span></a></li>
+      <li><a href=""  class="nav06"><span class="Texthide">活动区</span></a></li>
+    </ul>
+  </div>
+</div>
+<!--头部结束-->
+<div class="subbox">
+ <div class="position"> <a href="">战绩榜</a></div>
+  <div class="left735">
+      <div class="search"> <span>所在区域:</span>
+      <select name="" class="SelectBox1">
+        <option>包河区</option>
+        <option>包河区</option>
+      </select>
+     
+    </div>
+    <div class="cdlist">
+	<table width="680" align="center">
+ <tr class="zjTitle">      
+    <td>排名</td>
+    <td>队名</td>
+	<td>场次</td>
+    <td>总成绩</td>
+  </tr>
+  <tr>
+    <td><img src="images/num1.jpg" /></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+   <tr>
+    <td><img src="images/num2.jpg" /></td>
+    <td><a href="">山东米兰队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+   <tr>
+    <td><img src="images/num3.jpg" /></td>
+    <td><a href="">流浪者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr><tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">4</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">12</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">13</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">14</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+  <tr>
+    <td><span class="num">15</span></td>
+    <td><a href="">启翔弑者队</a></td>
+	<td>4</td>
+    <td><span>0胜0平0负</span></td>
+  </tr>
+</table>
+<div class="page"> <a href='javascript:void(0);' class='a_prev'> << 上一页 </a> <em class="num"><a href="#" class="a_cur">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a></em> <a href='javascript:void(0);' class='a_next'>下一页 >></a> </div>
+	 </div>
+  </div>
+  <div class="right300">
+    <div><a href="cjqd.html"><img src="images/fbyz.jpg" /></a></div>
+  </div>
+</div>
+<!--底部开始-->
+<div id="footer">
+  <dl>
+    <div class="inner">
+      <div class="item">
+        <dl>
+          <dt>关于我们</dt>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+        </dl>
+      </div>
+      <div class="item">
+        <dl>
+          <dt>联系我们</dt>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+        </dl>
+      </div>
+      <div class="item">
+        <dl>
+          <dt>商务合作</dt>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+        </dl>
+      </div>
+      <div class="item">
+        <dl>
+          <dt>公司新闻</dt>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+          <dd><a href="#">公司简介</a></dd>
+          <dd><a href="#">联系我们</a></dd>
+        </dl>
+      </div>
+      <div class="rightfoot">
+        <div class="weixin"><img src="images/weixin.jpg" /></div>
+      </div>
+    </div>
+  </dl>
+  <dl class="copy">
+    Copyright © 2014 查铭. All Rights Reserved. design by <a href="#" target="_blank" >samxinnet</a>
+  </dl>
+</div>
+<!--底部结束-->
+</body>
+</html>
