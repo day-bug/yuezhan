@@ -1,6 +1,5 @@
 package com.gaoshu.controller;
 
-import com.gaoshu.pojo.Team;
 import com.gaoshu.service.TeamService;
 import com.github.pagehelper.PageHelper;
 
@@ -19,7 +18,7 @@ public class GradeController {
     @Autowired
     private TeamService ts;
 
-    //查询球队信息
+    //查询球队信息.
     @RequestMapping("/selectTeams.do")
     public String selectTeams(@RequestParam(required=true,defaultValue="1")int pageNum, Model m){
         //设置分页参数

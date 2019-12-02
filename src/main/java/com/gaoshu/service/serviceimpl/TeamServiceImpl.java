@@ -1,7 +1,6 @@
 package com.gaoshu.service.serviceimpl;
 
 import com.gaoshu.mapper.TeamMapper;
-import com.gaoshu.pojo.Team;
 import com.gaoshu.service.TeamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
