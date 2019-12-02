@@ -9,8 +9,8 @@ import java.io.Serializable;
 
 //用户表
 @Data
-@Table(name = "users")
-public class users implements Serializable {
+@Table(name = "User")
+public class User implements Serializable {
    @Id
    @GeneratedValue(generator = "JDBC")
     private Integer uId; //用户ID

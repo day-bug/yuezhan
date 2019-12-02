@@ -8,9 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
-@Table(name="detail")
+@Table(name="Detail")
 @Data
-public class detail implements Serializable {
+public class Detail implements Serializable {
 
     @Id
     @GeneratedValue(generator = "JDBC")

@@ -8,21 +8,19 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Data
-@Table(name="reserve")
-public class reserve implements Serializable {
+@Table(name="Reserve")
+public class Reserve implements Serializable {
     @Id
     @GeneratedValue(generator = "JDBC")
     private Integer rId;
 
-    private Integer tId;
+    private Integer tId;//
 
     private String rFormat;//赛制
 
     private String rTime;//比赛时间
 
     private String rArea;
-
-    private String rFee;
 
     private Integer fId;
 

@@ -6,8 +6,8 @@ server:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://121.199.202.220:3306/flower
-    username: user10
+    url: jdbc:mysql://121.199.202.220:3306/yuezhan
+    username: user9
     password: User123456
 
   #redis服务器
@@ -21,7 +21,7 @@ spring:
         cache: false
         charset: utf-8
         content-type: text/html
-        template-loader-path: classpath:/templates/
+        template-loader-path: classpath:/templates/qd/
         suffix: .ftl
   #配置thymelelf模板参数
   thymeleaf:
@@ -29,7 +29,7 @@ spring:
     #应用于模板的模板模式
     mode: HTML5
     encoding: UTF-8
-    prefix: classpath:/templates/
+    prefix: classpath:/templates/qd/
     suffix: .html
     servlet:
       content-type: text/html
@@ -46,6 +46,7 @@ spring:
 #别名定义
 mybatis:
   type-aliases-package: com.gaoshu.pojo
-  #
-  #mapper-locations:
-  #config-locations:
+  #加载全局配置文件
+  config-locations: classpath:templates/SqlMapConfig.xml
+  #加载映射配置文件
+  #mapper-locations: classpath:mapper/*Mapper.xml

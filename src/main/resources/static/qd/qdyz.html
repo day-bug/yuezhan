@@ -5,7 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=7" />
 <link href="css/css_whir.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
-<title>查铭</title>
+<title>发布约战</title>
 </head>
 <body>
 <!--头部开始-->
@@ -13,11 +13,11 @@
   <div class="logo"><img src="images/logo.png" /></div>
   <div id="nav">
     <ul>
-      <li><a href="index.html"  class="nav01"><span class="Texthide">首页</span></a></li>
-      <li><a href="qdlb.html"  class="nav02"><span class="Texthide">球队</span></a></li>
-      <li><a href="qdyz.html"  class="nav03"><span class="Texthide">约战</span></a></li>
-      <li><a href="qdcd.html"  class="nav04"><span class="Texthide">场地</span></a></li>
-      <li><a href="qdzj.html"  class="nav05"><span class="Texthide">战绩榜</span></a></li>
+      <li><a href="index.html" class="nav01"><span class="Texthide">首页</span></a></li>
+      <li><a href="qdlb.html" class="nav02"><span class="Texthide">球队</span></a></li>
+      <li><a href="qdyz.html" class="nav03"><span class="Texthide">约战</span></a></li>
+      <li><a href="qdcd.html" class="nav04"><span class="Texthide">场地</span></a></li>
+      <li><a href="/Team/selectTeams.do" class="nav05"><span class="Texthide">战绩榜</span></a></li>
       <li><a href=""  class="nav06"><span class="Texthide">活动区</span></a></li>
     </ul>
   </div>
@@ -37,28 +37,32 @@
           <td><input name="" type="text" class="input2" /></td>
         </tr>
         <tr>
-          <td align="right">比赛时间：</td>
-          <td class="positionre"><input name="" type="text" class="input3" /><div class="icon">
-<a href="#">
-<img border="0" src="images/icon1.jpg">
-</a>
-</div>&nbsp;<input name="" type="text" class="input4" /><div class="icon" style="left:320px;">
-<a href="#">
-<img border="0" src="images/icon2.jpg">
-</a>
-</div>&nbsp;<input name="" type="text" class="input4" /><div class="icon" style="left:470px;">
-<a href="#">
-<img border="0" src="images/icon2.jpg">
-</a>
-</div>
-            &nbsp;*&nbsp;</td>
+            <td align="right">比赛时间:
+            <td class="positionre"><input name="time" type="date" class="input3" />
+                <!--<div class="icon">
+                    <a href="#">
+                        <img border="0" src="images/icon1.jpg">
+                    </a>
+                </div>&nbsp;<input name="" type="text" class="input4" /><div class="icon" style="left:320px;">
+                    <a href="#">
+                        <img border="0" src="images/icon2.jpg">
+                    </a>
+                </div>&nbsp;<input name="" type="text" class="input4" /><div class="icon" style="left:470px;">
+                    <a href="#">
+                        <img border="0" src="images/icon2.jpg">
+                    </a>
+                </div>-->
+            &nbsp;*&nbsp;
+            </td>
         </tr>
         <tr>
           <td align="right">赛制：</td>
           <td><div class="SelectBox"> <span class="SelectText">5人制</span>
               <dl class="SelectList">
-                <dt><a href="javascript:void(0)">5人制</a></dt>
-                <dt><a href="javascript:void(0)">5人制</a></dt>
+                  <dt><a href="javascript:void(0)">3人制</a></dt>
+                  <dt><a href="javascript:void(0)">5人制</a></dt>
+                  <dt><a href="javascript:void(0)">8人制</a></dt>
+                  <dt><a href="javascript:void(0)">11人制</a></dt>
               </dl>
             </div></td>
         </tr>
@@ -74,17 +78,41 @@
         </tr>
         <tr>
           <td align="right">付费方式：</td>
-          <td><div class="SelectBox"> <span class="SelectText">免费</span>
+          <td>
+              <div class="SelectBox"> <span class="SelectText">请选择付费方式</span>
               <dl class="SelectList">
-                <dt><a href="javascript:void(0)">免费</a></dt>
-                <dt><a href="javascript:void(0)">免费</a></dt>
+                <dt><a href="javascript:void(0)">微信</a></dt>
+                <dt><a href="javascript:void(0)">支付宝</a></dt>
               </dl>
-            </div></td>
+            </div>
+          </td>
         </tr>
+        <tr>
+            <td></td>
+        </tr>
+          <tr>
+              <td></td>
+          </tr>
 		<tr>
           <td align="right">队服颜色：</td>
-          <td><input name="" type="text" class="input3" />
-            &nbsp;*&nbsp;</td>
+            <td>
+            <div class="SelectBox"> <span class="SelectText">请选择队服颜色</span>
+                <dl class="SelectList">
+                    <dt><a href="javascript:void(0)">黑色</a></dt>
+                    <dt><a href="javascript:void(0)">红色</a></dt>
+                    <dt><a href="javascript:void(0)">黄色</a></dt>
+                    <dt><a href="javascript:void(0)">绿色</a></dt>
+                    <dt><a href="javascript:void(0)">橙色</a></dt>
+                    <dt><a href="javascript:void(0)">蓝色</a></dt>
+                    <dt><a href="javascript:void(0)">紫色</a></dt>
+                    <dt><a href="javascript:void(0)">青色</a></dt>
+                    <dt><a href="javascript:void(0)">红黑色</a></dt>
+                    <dt><a href="javascript:void(0)">白色</a></dt>
+                    <dt><a href="javascript:void(0)">白蓝色</a></dt>
+                    <dt><a href="javascript:void(0)">屎黄色</a></dt>
+                </dl>
+            </div>
+          </td>
         </tr>
 		  <tr>
           <td align="right">说明：</td>
@@ -92,7 +120,7 @@
             &nbsp;*&nbsp;</td>
         </tr>
         <tr>
-          <td colspan="2" align="center"><input name="" type="button" value="确认约战"  class="btn3"/></td>
+            <td colspan="2" align="center"><form action="index.html"><input type="submit" value="确认约战" class="btn3"/></form></td>
         </tr>
       </table>
     </div>
