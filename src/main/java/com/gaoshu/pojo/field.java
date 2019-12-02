@@ -24,7 +24,7 @@ public class field implements Serializable {
 
     private String fPhone;
 
-    private String reserve;//费用
+    private String fFee;//费用
 
 
 

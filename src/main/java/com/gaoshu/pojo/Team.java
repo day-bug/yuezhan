@@ -8,8 +8,8 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Data
-@Table(name = "team")
-public class team implements Serializable {
+@Table(name = "Team")
+public class Team implements Serializable {
     @Id
     @GeneratedValue(generator = "JDBC")
     private Integer tId;//球队id

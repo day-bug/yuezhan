@@ -21,7 +21,7 @@ spring:
         cache: false
         charset: utf-8
         content-type: text/html
-        template-loader-path: classpath:/templates/
+        template-loader-path: classpath:/templates/qd/
         suffix: .ftl
   #配置thymelelf模板参数
   thymeleaf:
@@ -29,7 +29,7 @@ spring:
     #应用于模板的模板模式
     mode: HTML5
     encoding: UTF-8
-    prefix: classpath:/templates/
+    prefix: classpath:/templates/qd/
     suffix: .html
     servlet:
       content-type: text/html
@@ -46,6 +46,7 @@ spring:
 #别名定义
 mybatis:
   type-aliases-package: com.gaoshu.pojo
-  #
-  #mapper-locations:
-  #config-locations:
+  #加载全局配置文件
+  config-locations: classpath:templates/SqlMapConfig.xml
+  #加载映射配置文件
+  #mapper-locations: classpath:mapper/*Mapper.xml
